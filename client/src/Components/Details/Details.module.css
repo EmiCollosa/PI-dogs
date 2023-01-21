@@ -1,0 +1,82 @@
+.background{ 
+    background-color: pink;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.btn{
+margin-bottom:800%;
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family:cursive;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    }
+    
+.btn:hover {
+    background-color: palevioletred;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+    }
+    
+.btn:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+    }
+    
+.btn:hover {
+      box-shadow:pink(39, 174, 96, .2) 0 6px 12px;
+    }
+
+.general{
+    margin-top: 0.5%;
+    display: flex;
+    border: 4px inset palevioletred;
+    border-radius: 9px 27px 18px 11px;
+    border-image: 100%
+    
+}
+
+.dogdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    width: 100%;
+    color: #cc6d9c ;
+
+        font-size: 5px;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+        
+    
+}
+

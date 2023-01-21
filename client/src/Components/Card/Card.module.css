@@ -1,0 +1,68 @@
+.card{
+    background-color:pink;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+   
+    }
+    
+    .cardImg{
+       margin-right: 30%;
+        margin-left: 1%;
+        align-self: center;
+        width: 110px;
+        border-radius: 5%;
+    }
+    
+    .cardInfo{
+       position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 19px 11px 26px 10px rgba(0, 0, 0, 0.78);
+        display: flex;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        letter-spacing: 1.8px;
+        word-spacing: 1.6px;
+        color: #bb3adb;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        background-color: rgb(175, 52, 109);
+        border-radius: 0px 40px 40px 0px;
+        flex-direction: column;
+        justify-content: space-around;
+        
+ 
+    
+    }
+    
+    .titleStyle{
+        background-color:pink;
+        text-decoration:solid;
+        justify-content: space-around;
+            color: rgba(155, 211, 23, 0.863);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            font-weight: 200;
+   
+        
+        
+    }
+    
+    .titleStyle > a {
+        justify-content: space-around;
+            color: black;
+            text-decoration: none;
+            font-size: 1.0em;
+            text-transform: uppercase;
+            font-weight: 450;
+            width: 80px;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+       
+    }
